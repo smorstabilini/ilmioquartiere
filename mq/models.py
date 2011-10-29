@@ -23,10 +23,7 @@ class Richiesta(models.Model):
     """
     Richiesta.
     """
-    creator = models.ForeignKey(
-        User,
-        unique=True,
-    )
+    creator = models.ForeignKey(User)
     description = models.CharField(
         max_length=500,
         verbose_name='Inserisci la tua richiesta',
