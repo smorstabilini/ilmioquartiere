@@ -1,0 +1,5 @@
+include LICENSE
+include README.rst
+recursive-include docs *.txt
+recursive-include wiki/media *.css
+recursive-include wiki/templates *.html *.txt

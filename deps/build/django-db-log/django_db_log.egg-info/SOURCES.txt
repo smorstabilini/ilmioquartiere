@@ -1,0 +1,15 @@
+PKG-INFO
+setup.py
+django_db_log.egg-info/PKG-INFO
+django_db_log.egg-info/SOURCES.txt
+django_db_log.egg-info/dependency_links.txt
+django_db_log.egg-info/top_level.txt
+djangodblog/.___init__.py
+djangodblog/__init__.py
+djangodblog/admin.py
+djangodblog/middleware.py
+djangodblog/models.py
+pip-egg-info/django_db_log.egg-info/PKG-INFO
+pip-egg-info/django_db_log.egg-info/SOURCES.txt
+pip-egg-info/django_db_log.egg-info/dependency_links.txt
+pip-egg-info/django_db_log.egg-info/top_level.txt

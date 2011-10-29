@@ -1,0 +1,15 @@
+PKG-INFO
+README.txt
+setup.py
+gravatar/__init__.py
+gravatar/models.py
+gravatar/views.py
+gravatar/templatetags/._gravatar.py
+gravatar/templatetags/._gravatar_tags.py
+gravatar/templatetags/__init__.py
+gravatar/templatetags/gravatar.py
+gravatar/templatetags/gravatar_tags.py
+pip-egg-info/django_gravatar.egg-info/PKG-INFO
+pip-egg-info/django_gravatar.egg-info/SOURCES.txt
+pip-egg-info/django_gravatar.egg-info/dependency_links.txt
+pip-egg-info/django_gravatar.egg-info/top_level.txt

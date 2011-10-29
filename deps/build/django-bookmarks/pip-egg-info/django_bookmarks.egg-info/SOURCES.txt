@@ -1,0 +1,17 @@
+AUTHORS
+LICENSE
+PKG-INFO
+README
+setup.py
+bookmarks/.___init__.py
+bookmarks/__init__.py
+bookmarks/admin.py
+bookmarks/feeds.py
+bookmarks/forms.py
+bookmarks/models.py
+bookmarks/urls.py
+bookmarks/views.py
+pip-egg-info/django_bookmarks.egg-info/PKG-INFO
+pip-egg-info/django_bookmarks.egg-info/SOURCES.txt
+pip-egg-info/django_bookmarks.egg-info/dependency_links.txt
+pip-egg-info/django_bookmarks.egg-info/top_level.txt

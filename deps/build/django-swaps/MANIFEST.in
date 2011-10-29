@@ -1,0 +1,3 @@
+include CONTRIBUTORS.txt
+recursive-include docs *.txt
+recursive-include swaps/templates *.html

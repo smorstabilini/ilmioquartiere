@@ -1,0 +1,24 @@
+Metadata-Version: 1.0
+Name: django-markup
+Version: 0.1
+Summary: A generic Django application to convert text with specific markup to html.
+Home-page: http://github.com/bartTC/django-markup/tree/master
+Author: Martin Mahner
+Author-email: martin@mahner.org
+License: UNKNOWN
+Description: =============
+        django-markup
+        =============
+        
+        This app is a generic way to provide filters that convert text into html.
+        
+        The documentation is available with this package in the ``docs/`` folder or
+        online under this url: http://docs.mahner.org/django-markup/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django

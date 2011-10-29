@@ -1,0 +1,44 @@
+How to use django-swaps
+----------------------------
+
+As the developer of a Pinax complete_project
+----------------------------------------------
+
+It's included.  You don't need to do anything.
+
+As the developer of a Django project
+-------------------------------------
+
+Install as in the installation instructions.
+
+Include 'swaps' in settings.py INSTALLED_APPS.
+
+Then do
+./manage.py syncdb
+
+The templates were developed for Pinax, but should be modifiable for your project.
+
+As an end-user
+---------------
+
+(If you are reading this, you are probably a developer.  
+These instructions below are also included for real end-users in the template offers.html.)
+
+Make an offer (of anything you are willing to give), ask for something you want to take in exchange. 
+Could be books, CDs, DVDs, games, work, gear, money - anything.
+
+Maybe somebody will propose a swap of something of theirs for your offer. 
+If so, the proposed swap goes into your Proposed to you page and their Proposed by you page.
+
+Your offer remains on the Open offers page so you may get other proposals, until you finally accept a swap. 
+(Their offer is not open; it is bound to their proposal unless you accept the proposed swap, or they cancel their proposal.)
+
+You can either accept or reject their proposal. Or you can discuss it in swap comments, and maybe get them to sweeten their offer.
+
+If you accept the proposal, the swap goes into the Accepted swaps page of both participants. 
+
+It is up to the participants to deliver on their promises.
+
+(Swaps models contain a state called "fulfilled" that could be used to extend the app to cover delivery. But fulfillment code has not yet been developed.)
+
+If you reject the proposal, the swap goes into the Dead swaps page of both participants, and both offers are returned to the Open offers page.

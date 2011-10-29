@@ -1,0 +1,12 @@
+Project Lead
+============
+Daniel Greenfeld <pydanny@gmail.com>
+
+Contributors
+============
+Patrick Lauber <digi604>
+Skylar Saveland <skyl>
+Eddy Mulyono <eddymul>
+mvaerle
+James Pic <jamespic.com>
+

@@ -1,0 +1,13 @@
+PKG-INFO
+README.textile
+setup.py
+textile.py
+pip-egg-info/textile.egg-info/PKG-INFO
+pip-egg-info/textile.egg-info/SOURCES.txt
+pip-egg-info/textile.egg-info/dependency_links.txt
+pip-egg-info/textile.egg-info/top_level.txt
+test/test.py
+textile.egg-info/PKG-INFO
+textile.egg-info/SOURCES.txt
+textile.egg-info/dependency_links.txt
+textile.egg-info/top_level.txt

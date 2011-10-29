@@ -1,0 +1,4 @@
+recursive-include photologue/locale *
+recursive-include photologue/res *.jpg
+recursive-include photologue/templates/photologue *.html
+global-exclude *.pyc

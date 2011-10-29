@@ -1,0 +1,15 @@
+LICENSE.txt
+PKG-INFO
+README.txt
+diff_match_patch.py
+diff_match_patch_test.py
+setup.cfg
+setup.py
+diff_match_patch.egg-info/PKG-INFO
+diff_match_patch.egg-info/SOURCES.txt
+diff_match_patch.egg-info/dependency_links.txt
+diff_match_patch.egg-info/top_level.txt
+pip-egg-info/diff_match_patch.egg-info/PKG-INFO
+pip-egg-info/diff_match_patch.egg-info/SOURCES.txt
+pip-egg-info/diff_match_patch.egg-info/dependency_links.txt
+pip-egg-info/diff_match_patch.egg-info/top_level.txt

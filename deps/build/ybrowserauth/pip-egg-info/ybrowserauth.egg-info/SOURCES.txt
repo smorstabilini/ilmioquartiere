@@ -1,0 +1,11 @@
+HTACCESS
+bbatestMAIL.py
+bbatestPHOTOS.py
+changelog.txt
+readme.txt
+setup.py
+ybrowserauth.py
+pip-egg-info/ybrowserauth.egg-info/PKG-INFO
+pip-egg-info/ybrowserauth.egg-info/SOURCES.txt
+pip-egg-info/ybrowserauth.egg-info/dependency_links.txt
+pip-egg-info/ybrowserauth.egg-info/top_level.txt
