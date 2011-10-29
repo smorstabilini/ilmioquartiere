@@ -1,0 +1,12 @@
+*.pyc
+*.swp
+*.db
+Session.vim
+.project
+.pydevproject
+local_settings.py
+.settings/*
+site_media/media/avatars/*
+.tmp_*.html.*
+site_media/media/photologue/
+.idea/*
