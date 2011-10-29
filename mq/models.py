@@ -19,27 +19,20 @@ COST = (
     (3, 'Pagamento'),
 )
 
-class ReqOff(models.Model):
+class Richiesta(models.Model):
+    """
+    Richiesta.
+    """
     creator = models.ForeignKey(
         User,
         unique=True,
     )
-
     description = models.CharField(
-        max_length=100,
+        max_length=500,
         verbose_name='Inserisci la tua richiesta',
     )
-    when = models.IntegerField(
-        choices=WHEN,
-    )
-
-    mon = models.BooleanField(verbose_name='Lunedì')
-    tue = models.BooleanField(verbose_name='Martedì')
-    wed = models.BooleanField(verbose_name='Mercoledì')
-    thu = models.BooleanField(verbose_name='Giovedì')
-    fri = models.BooleanField(verbose_name='Venerdì')
-    sat = models.BooleanField(verbose_name='Sabato')
-    sun = models.BooleanField(verbose_name='Domenica')
+    when = models.DateTimeField(auto_now_add=True)
+    resolved = models.BooleanField(default=False)
 
 
 class Discrict(models.Model):
@@ -55,3 +48,17 @@ class Discrict(models.Model):
     name = models.CharField(
         max_length=30,
     )
+
+"""
+class Abilita(models.Model):
+    # tag: 1 o 2 parole
+    short = models.CharField(max_length=50)
+
+    # descrizione lunga
+    descrizione = models.CharField(max_length=200)
+
+    class Meta:
+        verbose_name = "abilità"
+        verbose_name_plural = "abilita"
+"""
+
